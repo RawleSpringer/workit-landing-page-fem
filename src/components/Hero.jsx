@@ -1,9 +1,11 @@
+import styles from './Hero.module.css';
+
 const Hero = () => {
   return (
-    <section>
+    <section className={styles.heroWrapper}>
       <h1>Data tailored to your needs.</h1>
       <button>Learn more</button>
-      <div>IMG</div>
+      <div className={styles.imgWrapper}>IMG</div>
     </section>
   );
 };

@@ -5,6 +5,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  padding-inline-start: 0px;
 }
 /*
   2. Remove default margin
@@ -66,4 +67,8 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+ul {
+  list-style: none;
 }

@@ -1,7 +1,9 @@
+import styles from './About.module.css';
+
 const About = () => {
   return (
-    <section>
-      <div>
+    <section className={styles.aboutWrapper}>
+      <div className={styles.imgWrapper}>
         <img src="" alt="IMAGE OF PERSON" />
       </div>
       <div>

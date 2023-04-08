@@ -1,4 +1,5 @@
 import Feature from './Feature';
+import styles from './Features.module.css';
 
 const features = [
   {
@@ -24,7 +25,7 @@ const features = [
 const Features = () => {
   return (
     <section>
-      <ul>
+      <ul className={styles.features}>
         {features.map((feature) => (
           <Feature feature={feature} />
         ))}

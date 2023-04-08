@@ -1,0 +1,15 @@
+.aboutWrapper {
+  padding-top: 100px;
+}
+
+.imgWrapper {
+  height: 281px;
+  width: 281px;
+  margin-left: 47px;
+  margin-right: 47px;
+}
+
+.imgWrapper img {
+  height: 100%;
+  width: 100%;
+}

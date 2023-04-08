@@ -1,7 +1,9 @@
+import styles from './Header.module.css';
+
 const Header = () => {
   return (
-    <header>
-      <ul>
+    <header className={styles.headerWrapper}>
+      <ul className={styles.nav}>
         <li>workit</li>
         <li>Apply for access</li>
       </ul>

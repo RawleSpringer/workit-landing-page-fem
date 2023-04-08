@@ -1,8 +1,10 @@
+import styles from './Feature.module.css';
+
 const Feature = ({ feature }) => {
   return (
-    <li>
+    <li className={styles.feature}>
       <p>{feature.number}</p>
-      <h3>{feature.header}</h3>
+      <h3>{feature.heading}</h3>
       <p>{feature.description}</p>
     </li>
   );
