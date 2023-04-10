@@ -1,15 +1,45 @@
 .aboutWrapper {
   padding-top: 100px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .imgWrapper {
   height: 281px;
   width: 281px;
-  margin-left: 47px;
-  margin-right: 47px;
+  margin: 0 auto;
 }
 
 .imgWrapper img {
   height: 100%;
   width: 100%;
+}
+
+.aboutMeInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #24053e;
+  color: #ffffff;
+}
+
+.aboutMeInfo h2 {
+  margin-top: 32px;
+}
+
+.aboutMeInfo p {
+  margin-top: 16px;
+  width: 281px;
+  text-align: center;
+}
+
+.aboutMeInfo button {
+  margin-top: 24px;
+  margin-bottom: 30px;
+  color: #24053e;
+  background-color: #44ffa1;
+  width: 172px;
+  height: 55px;
+  text-align: center;
+  font-weight: bold;
 }

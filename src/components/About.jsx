@@ -1,12 +1,13 @@
 import styles from './About.module.css';
+import founderImage from '../assets/images/image-founder.webp';
 
 const About = () => {
   return (
     <section className={styles.aboutWrapper}>
       <div className={styles.imgWrapper}>
-        <img src="" alt="IMAGE OF PERSON" />
+        <img src={founderImage} alt="IMAGE OF PERSON" />
       </div>
-      <div>
+      <div className={styles.aboutMeInfo}>
         <h2>Be the first to test</h2>
         <p>
           Hi, I'm Louis Graham, the founder of the company. Book a demo call
