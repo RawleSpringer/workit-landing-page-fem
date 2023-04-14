@@ -6,6 +6,7 @@
 *::after {
   box-sizing: border-box;
   padding-inline-start: 0px;
+  font-family: Manrope;
 }
 /*
   2. Remove default margin
@@ -71,4 +72,24 @@ h6 {
 
 ul {
   list-style: none;
+}
+
+@font-face {
+  font-family: Manrope;
+  src: url(./assets/fonts/manrope/static/Manrope-Regular.ttf);
+}
+
+@font-face {
+  font-family: Fraunces;
+  src: url(./assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
+}
+
+h1,
+h2,
+h3 {
+  font-family: Fraunces;
+}
+
+button {
+  border: none;
 }

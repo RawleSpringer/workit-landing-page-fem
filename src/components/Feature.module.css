@@ -8,10 +8,11 @@
 
 .feature h3 {
   margin: 24px 0px;
+  font-size: 28px;
 }
 
 .feature :first-child {
-  border: 1px solid blue;
+  border: 1px solid #24053e;
   border-radius: 50%;
   height: 46px;
   width: 48px;
@@ -22,4 +23,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: Fraunces;
 }

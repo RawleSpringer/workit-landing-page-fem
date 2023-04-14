@@ -8,6 +8,7 @@
   height: 281px;
   width: 281px;
   margin: 0 auto;
+  margin-bottom: -50px;
 }
 
 .imgWrapper img {
@@ -21,10 +22,13 @@
   align-items: center;
   background-color: #24053e;
   color: #ffffff;
+  z-index: 100;
+  position: relative;
 }
 
 .aboutMeInfo h2 {
   margin-top: 32px;
+  font-size: 32px;
 }
 
 .aboutMeInfo p {
@@ -42,4 +46,5 @@
   height: 55px;
   text-align: center;
   font-weight: bold;
+  padding-right: 0px;
 }

@@ -8,7 +8,7 @@ const Header = () => {
         <li>
           <LogoIcon />
         </li>
-        <li>Apply for access</li>
+        <li className={styles.cta}>Apply for access</li>
       </ul>
     </header>
   );
